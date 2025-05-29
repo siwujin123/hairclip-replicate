@@ -1,0 +1,9 @@
+build:
+  gpu: true
+  python_version: "3.8"
+  python_packages:
+    - torch
+    - torchvision
+    - pillow
+    - cog
+predict: "predict.py:Predictor"
